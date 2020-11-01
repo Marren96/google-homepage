@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+}
+#left{
+    display:flex;
+    justify-content: flex-end;
+}
+.left{
+    margin-top: 10px;
+    margin-right:10px;
+    color: black;
+}
+#new{
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cent{
+    outline: none;
+    padding: 13px;
+    padding-left:45px ;
+    padding-right: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.icons{
+    position:absolute;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: blue;
+    border:1px solid;
+    font-weight: bold;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.logo{
+    margin-top: 200px;
+    text-align: center;
+}
+.round-edge{
+    text-align: center;
+    outline:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+round{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px;
+}
+#search{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.search{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: rgb(232, 238, 243);
+}
+#alternative-language{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bottom{
+    margin-bottom: 20px;
+}
+#extra{
+    display: flex;
+}
+footer{
+    background: #f2f2f2;
+}
+footer h4{
+    color:rgba(0,0,0,0.54);
+    font-size: 15px;
+    line-height: 39.5px;
+    font-weight: 400;
+}
+footer a{
+    color: #5f6368;
+    display: inline-block;
+    font-size: 14px;
+}
+.links{
+    color: black;
+    display: flex;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-bottom: 0px;
+    
+}
+.links-1{
+    padding-left: 18.7px;
+    flex: 1;
+    margin-bottom: 0px;
+}
+.links-2{
+    padding-right: 18.7px;
+}
